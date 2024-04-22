@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    }
+
+    :root{
+        --lime: #00FF00;
+        --gray1: #a39797;
+        --DarkMagenta: #8B008B;
+        --Red: #FF0000;
+        --navajo: #FFDEAD;
+        --burly: #DEB887;
+        --white: #FFFFFF;
+    }
+
+     a {
+        margin: 10px;
+        text-decoration: none;
+        color: black;
+        font-size: 20px;
+        text-transform: uppercase;
+        }
+   
+   .titulo2 {
+background-color: var(--navajo);
+text-align: center;
+font-family: "Raleway", cursive;
+margin-bottom: 15px;
+color: var(--black);
+border-radius: 10px;
+margin: 15px;
+padding: 5px;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 19px;;
+    list-style: none;
+}
+
+.topo-do-site {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.image-container {
+    width: 250px;
+}
+
+.topo-do-site img {
+    width: 150px;
+    max-height: auto;
+}
+
+
+/*Corpo*/
+.imagem-container {
+max-width: 250px;
+}
+
+.section-container {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+gap: 50px;
+text-align: center;
+}
+
+.product-price {
+    font-size: 20px;
+    color: var(--Red);
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.divisao-container {
+    display: grid;
+    
+}
+
+.caixa-container {
+width: 50px;
+height: 50px;
+background-color: var(--lime);
+text-align: center;
+font-size: 19px;
+}
+
+.butao {
+    width: 90px;
+    height: 50px;
+    background-color: var(--Red); 
+    color: var(--DarkMagenta);
+    text-align: center;
+    font-size: 15px;
+}
